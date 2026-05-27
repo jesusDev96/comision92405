@@ -43,7 +43,7 @@
 let total = 0;
 let eleccion;
 
-const mostrarTotal = (precio) => {
+const mostrarTotal = (precio, simbolo) => {
   total += precio;
   alert("Total hasta el moment: $" + total);
 };
